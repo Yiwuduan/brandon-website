@@ -1,0 +1,13 @@
+{
+  "framework": "vite-react-ts",
+  "port": 5173,
+  "packageManager": "auto",
+  "deployer": "vercel",
+  "tunnel": "localtunnel",
+  "testing": { "unit": true, "e2e": false },
+  "lint": { "eslint": true, "prettier": true },
+  "a11y": { "axe": true },
+  "seo": { "inject": true },
+  "ui": { "tailwind": true, "designSystem": "shadcn" },
+  "feedbackEndpoint": null
+}
